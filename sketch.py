@@ -11,7 +11,7 @@ BLUR_SIZE = 9
 BLUR_ITER = 10
 
 def main():
-    image= SimpleImage("images/me.jpg")
+    image= SimpleImage("images/(use any image).jpg")
     image.show()
 
     gray= image_gray(image)
